@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  font-size: 18px;
+  font-family: roboto;
+}
+
+#logo {
+  width: 200px;
+}
+
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 0px 0px 0px;
+  text-align: center;
+}
+
+#form-container {
+  margin-left: calc(50% - 320px);
+  width: 640px;
+}
+
+input {
+  margin: 5px 0px 5px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  border: 1px solid lightgrey;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 7px;
+}
+
+#list {
+  padding-bottom: 50px;
+}
+
+.studentAllocation {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  width: 540px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 7px;
+  border: 1px solid lightgrey;
+}
+
+.student {
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 109, 174);
+}
+
+.mazeMapURL {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 109, 174);
+}
+
+.error {
+  font-weight: bold;
+  color: rgb(0, 109, 174);
+}
+
+@media only screen and (max-width: 750px) {
+  h1 {
+    padding: 0px 20px 0px 20px;
+    font-size: 1.75rem;
+  }
+
+  #form-container {
+    margin-left: calc(50% - 42.5vw);
+    width: 85vw;
+  }
+
+  #header {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0px 0px 0px;
+    width: 85vw;
+  }
+
+  #list {
+    padding-bottom: 30px;
+  }
+
+  .student {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5vw;
+    width: 75vw;
+  }
+
+  #logo {
+    padding-bottom: 10px;
+    width: 160px;
+  }
+}
